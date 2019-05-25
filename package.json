@@ -1,0 +1,21 @@
+{
+  "name": "albionshopsview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.0",
+    "jQuery": "^1.7.4",
+    "jquery": "^3.4.1",
+    "jsdom": "^15.1.0",
+    "mongodb": "^3.2.6",
+    "nats": "^1.2.10",
+    "requirejs": "^2.3.6",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
