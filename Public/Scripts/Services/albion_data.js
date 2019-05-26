@@ -6,6 +6,13 @@ define(['jquery'],function($){
                 console.log(data);
           }, "json" );
     }
+    albion_data.getItemsName = function(){
+        $.get( "items", function( data ) {
+            $( "body" )
+                console.log(data);
+                console.log(data[0].LocalizedNames[0].Value);
+          }, "json" );
+    }
 
     return albion_data;
 })
